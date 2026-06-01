@@ -8,7 +8,7 @@
   "issues": [
 
     {
-      "packageName": "package1",
+      "packageName": "package5",
       "subproduct": "MyCustomScanTool",
       "issueName": "Issue of Exempt Testing",
       "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
@@ -25,7 +25,7 @@
       ]
     },
      {
-      "packageName": "package1",
+      "packageName": "package5",
       "subproduct": "MyCustomScanTool",
       "issueName": "Issue of Exempt Testing",
       "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
@@ -42,7 +42,7 @@
       ]
     },
      {
-      "packageName": "package2",
+      "packageName": "package5",
       "subproduct": "MyCustomScanTool",
       "issueName": "Issue of Exempt Testing",
       "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
