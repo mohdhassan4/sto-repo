@@ -1,0 +1,16 @@
+{
+    "_meta": {
+        "requires": {"python_version": "3.8"},
+        "sources": [{"url": "https://pypi.org/simple", "verify_ssl": true}]
+    },
+    "default": {
+        "django": {"version": "==2.0.0", "hashes": ["sha256:dummy"]},
+        "pillow": {"version": "==5.0.0", "hashes": ["sha256:dummy"]},
+        "requests": {"version": "==2.18.0", "hashes": ["sha256:dummy"]},
+        "pyyaml": {"version": "==3.12", "hashes": ["sha256:dummy"]},
+        "urllib3": {"version": "==1.21.1", "hashes": ["sha256:dummy"]},
+        "cryptography": {"version": "==2.1.4", "hashes": ["sha256:dummy"]},
+        "flask": {"version": "==0.12.0", "hashes": ["sha256:dummy"]},
+        "jinja2": {"version": "==2.10.0", "hashes": ["sha256:dummy"]}
+    }
+}
