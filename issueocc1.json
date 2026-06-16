@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "key": [
+      "packageName"
+    ],
+    "subproduct": "MyCustomScanner"
+  },
+  "issues": [
+    {
+      "packageName": "package1",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 1",
+      "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
+      "fileName": "file90.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package2",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 2",
+      "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "log4j-core",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Log4Shell RCE",
+      "issueDescription": "Apache Log4j2 2.0-beta9 through 2.15.0 JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message parameters can execute arbitrary code loaded from LDAP servers.",
+      "fileName": "log4j-core-2.14.1.jar",
+      "remediationSteps": "Upgrade log4j-core to version 2.17.1 or later.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2021-44228"
+        }
+      ]
+    },
+    {
+      "packageName": "log4j-core",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Log4j2 DOS Vulnerability",
+      "issueDescription": "Apache Log4j2 versions 2.0-alpha1 through 2.16.0 did not protect from uncontrolled recursion from self-referential lookups. When the logging configuration uses a non-default Pattern Layout with a Context Lookup, attackers with control over Thread Context Map data can cause a denial of service.",
+      "fileName": "log4j-core-2.14.1.jar",
+      "remediationSteps": "Upgrade log4j-core to version 2.17.1 or later.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2021-45105"
+        }
+      ]
+    },
+    {
+      "packageName": "spring-webmvc",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Spring4Shell RCE",
+      "issueDescription": "A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment.",
+      "fileName": "spring-webmvc-5.0.0.jar",
+      "remediationSteps": "Upgrade Spring Framework to 5.3.18 or 5.2.20 or later.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2022-22965"
+        }
+      ]
+    },
+    {
+      "packageName": "jackson-databind",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Jackson Deserialization RCE",
+      "issueDescription": "FasterXML jackson-databind 2.x before 2.9.10.4 mishandles the interaction between serialization gadgets and typing, related to org.apache.commons.dbcp2.datasources.PerUserPoolDataSource.",
+      "fileName": "jackson-databind-2.9.8.jar",
+      "remediationSteps": "Upgrade jackson-databind to 2.13.4.2 or later.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2020-36518"
+        }
+      ]
+    },
+    {
+      "packageName": "commons-collections",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Apache Commons Collections RCE",
+      "issueDescription": "Serialization vulnerability in Apache Commons Collections 3.2.1 allows remote attackers to execute arbitrary code via crafted serialized Java objects.",
+      "fileName": "commons-collections-3.2.1.jar",
+      "remediationSteps": "Upgrade to commons-collections 3.2.2 or 4.1 or later.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2015-7501"
+        }
+      ]
+    },
+    {
+      "packageName": "struts2-core",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Apache Struts2 RCE",
+      "issueDescription": "The Jakarta Multipart parser in Apache Struts 2.3.x before 2.3.32 and 2.5.x before 2.5.10.1 has incorrect exception handling and error-message generation during file-upload attempts, which allows remote attackers to execute arbitrary commands via a crafted Content-Type, Content-Disposition, or Content-Length HTTP header.",
+      "fileName": "struts2-core-2.3.8.jar",
+      "remediationSteps": "Upgrade to Struts 2.5.30 or later.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2017-5638"
+        }
+      ]
+    },
+    {
+      "packageName": "openssl",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "OpenSSL Heartbleed",
+      "issueDescription": "The TLS and DTLS implementations in OpenSSL 1.0.1 before 1.0.1g do not properly handle Heartbeat Extension packets, which allows remote attackers to obtain sensitive information from process memory via crafted packets that trigger a buffer over-read.",
+      "fileName": "libssl.so.1.0.1",
+      "remediationSteps": "Upgrade OpenSSL to 1.0.1g or later.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2014-0160"
+        }
+      ]
+    },
+    {
+      "packageName": "lodash",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Lodash Prototype Pollution",
+      "issueDescription": "Prototype pollution attack in lodash before 4.17.12 via the defaultsDeep, merge, and mergeWith functions allows attackers to modify the prototype of Object via __proto__.",
+      "fileName": "lodash-4.17.4.js",
+      "remediationSteps": "Upgrade lodash to 4.17.21 or later.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2019-10744"
+        }
+      ]
+    },
+    {
+      "packageName": "axios",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Axios SSRF Vulnerability",
+      "issueDescription": "Axios 0.18.0 and earlier is vulnerable to Server-Side Request Forgery (SSRF) due to improper handling of redirect requests, allowing attackers to cause the server to make requests to unintended locations.",
+      "fileName": "axios-0.18.0.js",
+      "remediationSteps": "Upgrade axios to 0.21.2 or later.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2020-28168"
+        }
+      ]
+    },
+    {
+      "packageName": "django",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Django SQL Injection",
+      "issueDescription": "Django 2.0.x before 2.0.3 allows SQL injection via a crafted query string involving the QuerySet.extra() method with an order_by argument.",
+      "fileName": "django-2.0.0.tar.gz",
+      "remediationSteps": "Upgrade Django to 2.2.28 or 3.2.13 or later.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2022-28346"
+        }
+      ]
+    },
+    {
+      "packageName": "cryptography",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cryptography Bleichenbacher Timing Attack",
+      "issueDescription": "python-cryptography 2.1.4 is vulnerable to Bleichenbacher timing attacks in the RSA decryption API via the PKCS1v15 padding, allowing a remote attacker to recover plaintext.",
+      "fileName": "cryptography-2.1.4.tar.gz",
+      "remediationSteps": "Upgrade cryptography to 39.0.1 or later.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2023-0286"
+        }
+      ]
+    },
+    {
+      "packageName": "flask",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Flask Open Redirect",
+      "issueDescription": "Flask 0.12.0 is vulnerable to open redirect via the redirect() function when the URL is not properly validated, allowing attackers to redirect users to malicious websites.",
+      "fileName": "Flask-0.12.0.tar.gz",
+      "remediationSteps": "Upgrade Flask to 2.2.5 or later.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2023-30861"
+        }
+      ]
+    },
+    {
+      "packageName": "urllib3",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "urllib3 Header Injection",
+      "issueDescription": "urllib3 1.21.1 does not properly validate CRLF sequences in HTTP headers, allowing attackers to inject arbitrary headers via a crafted URL.",
+      "fileName": "urllib3-1.21.1.tar.gz",
+      "remediationSteps": "Upgrade urllib3 to 1.26.5 or later.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2020-26137"
+        }
+      ]
+    },
+    {
+      "packageName": "handlebars",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Handlebars Template Injection",
+      "issueDescription": "Handlebars before 4.7.7 is vulnerable to prototype pollution when its compile function is used to compile templates using untrusted data, allowing attackers to execute arbitrary code.",
+      "fileName": "handlebars-4.0.11.js",
+      "remediationSteps": "Upgrade handlebars to 4.7.7 or later.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2021-23369"
+        }
+      ]
+    },
+    {
+      "packageName": "tar",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "node-tar Path Traversal",
+      "issueDescription": "node-tar before 6.1.2 allows arbitrary file creation/overwrite and arbitrary code execution via a crafted TAR file that contains a symlink followed by a file with the same name as the symlink target.",
+      "fileName": "tar-4.4.8.js",
+      "remediationSteps": "Upgrade tar to 6.1.9 or later.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2021-37701"
+        }
+      ]
+    },
+    {
+      "packageName": "minimist",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Minimist Prototype Pollution",
+      "issueDescription": "minimist before 1.2.6 is vulnerable to prototype pollution via the constructor, __proto__, and prototype properties.",
+      "fileName": "minimist-1.2.0.js",
+      "remediationSteps": "Upgrade minimist to 1.2.6 or later.",
+      "risk": "low",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2021-44906"
+        }
+      ]
+    },
+    {
+      "packageName": "ini",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "ini Prototype Pollution",
+      "issueDescription": "The ini package before 1.3.6 for Node.js allows prototype pollution via a crafted INI file.",
+      "fileName": "ini-1.3.5.js",
+      "remediationSteps": "Upgrade ini to 1.3.6 or later.",
+      "risk": "low",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2020-7788"
+        }
+      ]
+    },
+    {
+      "packageName": "pillow",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Pillow Buffer Overflow",
+      "issueDescription": "Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) via a crafted BLP image file due to uncontrolled resource consumption in BLP image parsing.",
+      "fileName": "Pillow-5.0.0.tar.gz",
+      "remediationSteps": "Upgrade Pillow to 9.3.0 or later.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2021-27921"
+        }
+      ]
+    },
+    {
+      "packageName": "pyyaml",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "PyYAML Arbitrary Code Execution",
+      "issueDescription": "PyYAML 3.12 and prior versions are vulnerable to arbitrary code execution when the full_load method is used with untrusted YAML input due to unsafe deserialization.",
+      "fileName": "PyYAML-3.12.tar.gz",
+      "remediationSteps": "Upgrade PyYAML to 6.0 or later and use safe_load().",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2017-18342"
+        }
+      ]
+    },
+    {
+      "packageName": "path-parse",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "path-parse ReDoS",
+      "issueDescription": "The path-parse package before 1.0.7 is vulnerable to Regular Expression Denial of Service (ReDoS) via the splitDeviceRe, splitTailRe, and splitPathRe regular expressions.",
+      "fileName": "path-parse-1.0.6.js",
+      "remediationSteps": "Upgrade path-parse to 1.0.7 or later.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2021-23343"
+        }
+      ]
+    }
+  ]
+}
