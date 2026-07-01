@@ -142,7 +142,9 @@
         }
       ]
     },
-{
+  {
+      "packageName": "package shreyansh12/repo12",
+      "subproduct": "MyCustomScanTool",
       "severity": 7,
       "fileName": "file3.java",
       "issueName": "low-package-nested-json-1",
@@ -155,7 +157,7 @@
       "remediationSteps": "Fix me fast.",
       "subproduct": "MyCustomScanTool",
       "packageName": "low-package-nested-json-1",
-      "issueDescription": "[{\"missingLabels\": {\"ad-domain\": {\"allowed\": [\"corpdev\", \"corpstage\", \"custstage\", \"corp\", \"cust\"], \"present\": false, \"value\": \"missing\"}, \"ephemeral\": {\"allowed\": [\"true\", \"false\"], \"present\": false, \"value\": \"missing\"}, \"sub-product\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}, \"usp\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}}, \"resourceName\": \"default\", \"resourceType\": \"google_compute_instance\", \"searchKey\": \"resource[default].labels\"}, {\"missingLabels\": {\"ad-domain\": {\"allowed\": [\"corpdev\", \"corpstage\", \"custstage\", \"corp\", \"cust\"], \"present\": false, \"value\": \"missing\"}, \"ephemeral\": {\"allowed\": [\"true\", \"false\"], \"present\": false, \"value\": \"missing\"}, \"sub-product\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}, \"usp\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}}, \"resourceName\": \"default\", \"resourceType\": \"google_compute_instance_template\", \"searchKey\": \"resource[default].labels\"}]",
+      "issueDescription": "description for cisa kev",
       "status": "open"
     }
   ]
