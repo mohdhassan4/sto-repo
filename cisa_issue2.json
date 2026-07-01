@@ -1,0 +1,162 @@
+
+{
+  "meta": {
+    "key": [
+      "packageName"
+    ],
+    "subproduct": "MyCustomScanner"
+  },
+  "issues": [
+     {
+      "packageName": "package hassan/repo1",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 1 for shreyansh/repo1",
+      "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 5,
+      "status": "open",
+      
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2017-1130"
+        }
+      ]
+    },
+     {
+      "packageName": "package hassan/repo1",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 2 for shreyansh/repo1",
+      "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 8,
+      "status": "closed",
+      "newStatus":"shreyansh",
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo2",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 4 for shreyansh/repo1",
+      "issueDescription": "ntfs_attr_find in the ntfs.ko filesystem driver in the Linux kernel 4.15.0 allows attackers to trigger a stack-based out-of-bounds write and cause a denial of service (kernel oops or panic) or possibly have unspecified other impact via a crafted ntfs filesystem.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 10,
+      "status": "open",
+      "newStatus":"shreyansh",
+      "comment":"This is a test comment",
+      "commentBy":"shreyansh",
+      "commentAt":"2025-10-15T12:00:00Z",
+
+      "referenceIdentifiers": [
+        
+         {
+          "type": "CVE",
+          "id": "2017-1131"
+        },
+        {
+          "type": "CVE",
+          "id": "2017-1130"
+        }
+      ]
+    },
+     {
+      "packageName": "package hassan/repo12",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 2 for hassan/repo1",
+      "issueDescription": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 5,
+      "status": "open",
+      
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo123",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 2 for hassan/repo1",
+      "issueDescription": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 5,
+      "status": "open",
+      
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package shreyansh/repo32",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 2 for hassan/repo1",
+      "issueDescription": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 5,
+      "status": "open",
+      
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package shreyansh/repo33",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Issue 2 for hassan/repo1",
+      "issueDescription": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
+      "fileName": "file1.java",
+      "remediationSteps": "Fix me fast.",
+      "risk": "low",
+      "severity": 5,
+      "status": "open",
+      
+      "referenceIdentifiers": [
+        {
+          "type": "CVE",
+          "id": "2023-46604"
+        }
+      ]
+    },
+{
+      "severity": 7,
+      "fileName": "file3.java",
+      "issueName": "low-package-nested-json-1",
+      "referenceIdentifiers": [
+        {
+          "id": "1999-0002",
+          "type": "cve"
+        }
+      ],
+      "remediationSteps": "Fix me fast.",
+      "subproduct": "MyCustomScanTool",
+      "packageName": "low-package-nested-json-1",
+      "issueDescription": "[{\"missingLabels\": {\"ad-domain\": {\"allowed\": [\"corpdev\", \"corpstage\", \"custstage\", \"corp\", \"cust\"], \"present\": false, \"value\": \"missing\"}, \"ephemeral\": {\"allowed\": [\"true\", \"false\"], \"present\": false, \"value\": \"missing\"}, \"sub-product\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}, \"usp\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}}, \"resourceName\": \"default\", \"resourceType\": \"google_compute_instance\", \"searchKey\": \"resource[default].labels\"}, {\"missingLabels\": {\"ad-domain\": {\"allowed\": [\"corpdev\", \"corpstage\", \"custstage\", \"corp\", \"cust\"], \"present\": false, \"value\": \"missing\"}, \"ephemeral\": {\"allowed\": [\"true\", \"false\"], \"present\": false, \"value\": \"missing\"}, \"sub-product\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}, \"usp\": {\"allowed\": [], \"present\": false, \"value\": \"missing\"}}, \"resourceName\": \"default\", \"resourceType\": \"google_compute_instance_template\", \"searchKey\": \"resource[default].labels\"}]",
+      "status": "open"
+    }
+  ]
+}
