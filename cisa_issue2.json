@@ -20,7 +20,7 @@
       
       "referenceIdentifiers": [
         {
-          "type": "CVE",
+          "type": "cve",
           "id": "2017-1130"
         }
       ]
@@ -38,7 +38,7 @@
       "newStatus":"shreyansh",
       "referenceIdentifiers": [
         {
-          "type": "CVE",
+          "type": "cve",
           "id": "2017-1130"
         }
       ]
@@ -83,7 +83,7 @@
       
       "referenceIdentifiers": [
         {
-          "type": "CVE",
+          "type": "cve",
           "id": "2017-1130"
         }
       ]
