@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "key": [
+      "packageName"
+    ],
+    "subproduct": "MyCustomScanner"
+  },
+  "issues": [
+    {
+      "packageName": "package hassan/repo10",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 10",
+      "issueDescription": "A race condition in the license validation routine allows a locally authenticated user to bypass license enforcement checks and enable restricted features.",
+      "fileName": "file4.java",
+      "remediationSteps": "Apply the concurrency fix from the vendor advisory and audit enabled feature flags.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo10",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 10",
+      "issueDescription": "A race condition in the license validation routine allows a locally authenticated user to bypass license enforcement checks and enable restricted features.",
+      "fileName": "file4.java",
+      "remediationSteps": "Apply the concurrency fix from the vendor advisory and audit enabled feature flags.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo10",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 10",
+      "issueDescription": "A race condition in the license validation routine allows a locally authenticated user to bypass license enforcement checks and enable restricted features.",
+      "fileName": "file4.java",
+      "remediationSteps": "Apply the concurrency fix from the vendor advisory and audit enabled feature flags.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo11",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 11",
+      "issueDescription": "The configuration backup feature stores credentials in plaintext within the exported archive, exposing sensitive secrets to anyone with access to the backup file.",
+      "fileName": "file4.java",
+      "remediationSteps": "Encrypt backup archives and rotate any credentials that may have been exposed.",
+      "risk": "medium",
+      "severity": 5,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo11",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 11",
+      "issueDescription": "The configuration backup feature stores credentials in plaintext within the exported archive, exposing sensitive secrets to anyone with access to the backup file.",
+      "fileName": "file4.java",
+      "remediationSteps": "Encrypt backup archives and rotate any credentials that may have been exposed.",
+      "risk": "medium",
+      "severity": 5,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1139"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo11",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 11",
+      "issueDescription": "The configuration backup feature stores credentials in plaintext within the exported archive, exposing sensitive secrets to anyone with access to the backup file.",
+      "fileName": "file4.java",
+      "remediationSteps": "Encrypt backup archives and rotate any credentials that may have been exposed.",
+      "risk": "medium",
+      "severity": 5,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo12b",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 12",
+      "issueDescription": "An out-of-bounds write in the image parsing library can be triggered by a specially crafted file, resulting in a crash or potential arbitrary code execution.",
+      "fileName": "file4.java",
+      "remediationSteps": "Upgrade the image parsing library to the version that fixes the buffer boundary check.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo12b",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 12",
+      "issueDescription": "An out-of-bounds write in the image parsing library can be triggered by a specially crafted file, resulting in a crash or potential arbitrary code execution.",
+      "fileName": "file4.java",
+      "remediationSteps": "Upgrade the image parsing library to the version that fixes the buffer boundary check.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo12b",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 12",
+      "issueDescription": "An out-of-bounds write in the image parsing library can be triggered by a specially crafted file, resulting in a crash or potential arbitrary code execution.",
+      "fileName": "file4.java",
+      "remediationSteps": "Upgrade the image parsing library to the version that fixes the buffer boundary check.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1138"
+        }
+      ]
+    }
+  ]
+}
