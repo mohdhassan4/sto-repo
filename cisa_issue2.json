@@ -17,7 +17,7 @@
       "risk": "low",
       "severity": 5,
       "status": "open",
-      
+      "CISA KEV": "hassan Yes",
       "referenceIdentifiers": [
         {
           "type": "cve",
@@ -36,6 +36,7 @@
       "severity": 8,
       "status": "closed",
       "newStatus":"shreyansh",
+      "CISA KEV": "Yes",
       "referenceIdentifiers": [
         {
           "type": "cve",
@@ -57,6 +58,7 @@
       "comment":"This is a test comment",
       "commentBy":"shreyansh",
       "commentAt":"2025-10-15T12:00:00Z",
+       "CISA KEV": "No",
 
       "referenceIdentifiers": [
         
