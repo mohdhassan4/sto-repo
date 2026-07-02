@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "key": [
+      "packageName"
+    ],
+    "subproduct": "MyCustomScanner"
+  },
+  "issues": [
+    {
+      "packageName": "package hassan/repo13",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 13",
+      "issueDescription": "The password reset workflow generates predictable tokens based on a timestamp, allowing an attacker to guess valid reset tokens and take over user accounts.",
+      "fileName": "file5.java",
+      "remediationSteps": "Replace the token generation logic with a cryptographically secure random source.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo13",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 13",
+      "issueDescription": "The password reset workflow generates predictable tokens based on a timestamp, allowing an attacker to guess valid reset tokens and take over user accounts.",
+      "fileName": "file5.java",
+      "remediationSteps": "Replace the token generation logic with a cryptographically secure random source.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo13",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 13",
+      "issueDescription": "The password reset workflow generates predictable tokens based on a timestamp, allowing an attacker to guess valid reset tokens and take over user accounts.",
+      "fileName": "file5.java",
+      "remediationSteps": "Replace the token generation logic with a cryptographically secure random source.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo14",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 14",
+      "issueDescription": "The SOAP API interface is vulnerable to XML external entity injection, permitting an attacker to read arbitrary local files or perform server-side request forgery.",
+      "fileName": "file5.java",
+      "remediationSteps": "Disable external entity resolution in the XML parser configuration.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo14",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 14",
+      "issueDescription": "The SOAP API interface is vulnerable to XML external entity injection, permitting an attacker to read arbitrary local files or perform server-side request forgery.",
+      "fileName": "file5.java",
+      "remediationSteps": "Disable external entity resolution in the XML parser configuration.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1139"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo14",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 14",
+      "issueDescription": "The SOAP API interface is vulnerable to XML external entity injection, permitting an attacker to read arbitrary local files or perform server-side request forgery.",
+      "fileName": "file5.java",
+      "remediationSteps": "Disable external entity resolution in the XML parser configuration.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo15",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 15",
+      "issueDescription": "A missing authorization check on the bulk export endpoint allows any authenticated user, regardless of role, to download the full customer database.",
+      "fileName": "file5.java",
+      "remediationSteps": "Restrict the bulk export endpoint to users with administrative privileges.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo15",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 15",
+      "issueDescription": "A missing authorization check on the bulk export endpoint allows any authenticated user, regardless of role, to download the full customer database.",
+      "fileName": "file5.java",
+      "remediationSteps": "Restrict the bulk export endpoint to users with administrative privileges.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo15",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 15",
+      "issueDescription": "A missing authorization check on the bulk export endpoint allows any authenticated user, regardless of role, to download the full customer database.",
+      "fileName": "file5.java",
+      "remediationSteps": "Restrict the bulk export endpoint to users with administrative privileges.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1138"
+        }
+      ]
+    }
+  ]
+}
