@@ -17,7 +17,7 @@
       "risk": "low",
       "severity": 5,
       "status": "open",
-      
+      "CISA KEV" : "Yes",
       "referenceIdentifiers": [
         {
           "type": "cve",
@@ -26,16 +26,16 @@
       ]
     },
     {
-      "packageName": "package hassan/repoexemp1",
+      "packageName": "package hassan/repoexemp123",
       "subproduct": "MyCustomScanTool",
-      "issueName": "Civa issue one occurence exempt",
+      "issueName": "Civa issue one occurence exempt123",
       "issueDescription": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
       "fileName": "file1.java",
       "remediationSteps": "Fix me fast.",
       "risk": "low",
       "severity": 5,
       "status": "open",
-      
+      "CISA KEV" : "No",
       "referenceIdentifiers": [
         {
           "type": "cve",
@@ -53,7 +53,7 @@
       "risk": "low",
       "severity": 5,
       "status": "open",
-      
+      "CISA KEV" : "Hassan Yes",
       "referenceIdentifiers": [
         {
           "type": "cve",
@@ -62,16 +62,16 @@
       ]
     },
     {
-      "packageName": "package hassan/repoexemp2",
+      "packageName": "package hassan/repoexemp22",
       "subproduct": "MyCustomScanTool",
-      "issueName": "Civa issue one occurence exempt2",
+      "issueName": "Civa issue one occurence exempt22",
       "issueDescription": "SimpleHelp contains an authentication bypass vulnerability in the OIDC authentication flow. When OIDC authentication is configured, identity tokens submitted during login are accepted without verifying their cryptographic signature. In a vulnerable configuration, a remote, unauthenticated attacker can submit a forged token containing arbitrary identity claims to obtain a fully authenticated technician session. In some configurations, this may also allow bypass of multi-factor authentication.",
       "fileName": "file1.java",
       "remediationSteps": "Fix me fast.",
       "risk": "low",
       "severity": 5,
       "status": "open",
-      
+       "CISA KEV" : "Hassan No",
       "referenceIdentifiers": [
         {
           "type": "cve",
