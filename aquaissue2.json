@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "key": [
+      "packageName"
+    ],
+    "subproduct": "MyCustomScanner"
+  },
+  "issues": [
+    {
+      "packageName": "package hassan/repo4",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 4",
+      "issueDescription": "The affected component exposes an API endpoint that fails to properly validate session tokens, allowing a remote attacker to escalate privileges and access administrative functions without valid credentials.",
+      "fileName": "file2.java",
+      "remediationSteps": "Upgrade to the patched release and rotate all active session tokens.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo4",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 4",
+      "issueDescription": "The affected component exposes an API endpoint that fails to properly validate session tokens, allowing a remote attacker to escalate privileges and access administrative functions without valid credentials.",
+      "fileName": "file2.java",
+      "remediationSteps": "Upgrade to the patched release and rotate all active session tokens.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo4",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 4",
+      "issueDescription": "The affected component exposes an API endpoint that fails to properly validate session tokens, allowing a remote attacker to escalate privileges and access administrative functions without valid credentials.",
+      "fileName": "file2.java",
+      "remediationSteps": "Upgrade to the patched release and rotate all active session tokens.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo5",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 5",
+      "issueDescription": "A path traversal flaw in the file upload handler allows an authenticated user to write files outside the intended upload directory, potentially leading to remote code execution.",
+      "fileName": "file2.java",
+      "remediationSteps": "Apply the vendor patch and restrict upload directory permissions.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo5",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 5",
+      "issueDescription": "A path traversal flaw in the file upload handler allows an authenticated user to write files outside the intended upload directory, potentially leading to remote code execution.",
+      "fileName": "file2.java",
+      "remediationSteps": "Apply the vendor patch and restrict upload directory permissions.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1139"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo5",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 5",
+      "issueDescription": "A path traversal flaw in the file upload handler allows an authenticated user to write files outside the intended upload directory, potentially leading to remote code execution.",
+      "fileName": "file2.java",
+      "remediationSteps": "Apply the vendor patch and restrict upload directory permissions.",
+      "risk": "high",
+      "severity": 8,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo6",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 6",
+      "issueDescription": "Improper input sanitization in the search module permits a stored cross-site scripting attack that can be triggered when an administrator reviews flagged records.",
+      "fileName": "file2.java",
+      "remediationSteps": "Sanitize all user-supplied search input and encode output before rendering.",
+      "risk": "medium",
+      "severity": 5,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo6",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 6",
+      "issueDescription": "Improper input sanitization in the search module permits a stored cross-site scripting attack that can be triggered when an administrator reviews flagged records.",
+      "fileName": "file2.java",
+      "remediationSteps": "Sanitize all user-supplied search input and encode output before rendering.",
+      "risk": "medium",
+      "severity": 5,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo6",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 6",
+      "issueDescription": "Improper input sanitization in the search module permits a stored cross-site scripting attack that can be triggered when an administrator reviews flagged records.",
+      "fileName": "file2.java",
+      "remediationSteps": "Sanitize all user-supplied search input and encode output before rendering.",
+      "risk": "medium",
+      "severity": 5,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1138"
+        }
+      ]
+    }
+  ]
+}
