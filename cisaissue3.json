@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "key": [
+      "packageName"
+    ],
+    "subproduct": "MyCustomScanner"
+  },
+  "issues": [
+    {
+      "packageName": "package hassan/repo7",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 7",
+      "issueDescription": "The management console ships with a default administrative account whose credentials are not forced to be changed on first login, allowing an attacker with network access to gain full control.",
+      "fileName": "file3.java",
+      "remediationSteps": "Disable or reset the default account and enforce mandatory credential rotation on first use.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo7",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 7",
+      "issueDescription": "The management console ships with a default administrative account whose credentials are not forced to be changed on first login, allowing an attacker with network access to gain full control.",
+      "fileName": "file3.java",
+      "remediationSteps": "Disable or reset the default account and enforce mandatory credential rotation on first use.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2025-6204"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo7",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 7",
+      "issueDescription": "The management console ships with a default administrative account whose credentials are not forced to be changed on first login, allowing an attacker with network access to gain full control.",
+      "fileName": "file3.java",
+      "remediationSteps": "Disable or reset the default account and enforce mandatory credential rotation on first use.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo8",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 8",
+      "issueDescription": "A deserialization flaw in the messaging queue processor allows an unauthenticated attacker to submit crafted objects that execute arbitrary code when processed.",
+      "fileName": "file3.java",
+      "remediationSteps": "Update to the version that enforces type allow-listing during deserialization.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo8",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 8",
+      "issueDescription": "A deserialization flaw in the messaging queue processor allows an unauthenticated attacker to submit crafted objects that execute arbitrary code when processed.",
+      "fileName": "file3.java",
+      "remediationSteps": "Update to the version that enforces type allow-listing during deserialization.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1139"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo8",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 8",
+      "issueDescription": "A deserialization flaw in the messaging queue processor allows an unauthenticated attacker to submit crafted objects that execute arbitrary code when processed.",
+      "fileName": "file3.java",
+      "remediationSteps": "Update to the version that enforces type allow-listing during deserialization.",
+      "risk": "high",
+      "severity": 9,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2023-33107"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo9",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 9",
+      "issueDescription": "Insufficient access control on the reporting API allows a low-privileged user to retrieve reports belonging to other tenants by incrementing a numeric identifier in the request.",
+      "fileName": "file3.java",
+      "remediationSteps": "Implement object-level authorization checks on all reporting endpoints.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo9",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 9",
+      "issueDescription": "Insufficient access control on the reporting API allows a low-privileged user to retrieve reports belonging to other tenants by incrementing a numeric identifier in the request.",
+      "fileName": "file3.java",
+      "remediationSteps": "Implement object-level authorization checks on all reporting endpoints.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1130"
+        }
+      ]
+    },
+    {
+      "packageName": "package hassan/repo9",
+      "subproduct": "MyCustomScanTool",
+      "issueName": "Cisa issue 9",
+      "issueDescription": "Insufficient access control on the reporting API allows a low-privileged user to retrieve reports belonging to other tenants by incrementing a numeric identifier in the request.",
+      "fileName": "file3.java",
+      "remediationSteps": "Implement object-level authorization checks on all reporting endpoints.",
+      "risk": "medium",
+      "severity": 6,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2017-1138"
+        }
+      ]
+    }
+  ]
+}
