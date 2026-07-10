@@ -1,0 +1,111 @@
+{
+    "image_digest": "sha256:cd603bd05f0ce964ae5e0ca1d4d45a1379eb8ec08081e7ae8bb31a83289eef4c",
+    "vulnerability_type": "all",
+    "vulnerabilities": [
+        {
+            "vuln": "CVE-2019-12975",
+            "severity": "Low",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2019-12975",
+            "fix": "8:6.9.10.23+dfsg-2.1+deb10u1",
+            "package": "libmagickwand-dev-8:6.9.10.23+dfsg-2.1",
+            "package_name": "libmagickwand-dev",
+            "package_version": "8:6.9.10.23+dfsg-2.1",
+            "package_type": "dpkg",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_path": "pkgdb",
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "nvd_data": [
+                {
+                    "id": "CVE-2019-12975",
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.5,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    }
+                }
+            ],
+            "vendor_data": [],
+            "will_not_fix": false,
+            "fix_observed_at": "2023-09-22T01:23:51Z",
+            "detected_at": "2024-10-01T16:56:23Z"
+        },
+         {
+            "vuln": "CVE-2019-12975",
+            "severity": "Critical",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2019-12975",
+            "fix": "8:6.9.10.23+dfsg-2.1+deb10u1",
+            "package": "libmagickwand-dev-8:6.9.10.23+dfsg-2.1",
+            "package_name": "libmagickwand-dev",
+            "package_version": "8:6.9.10.23+dfsg-2.1",
+            "package_type": "dpkg",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_path": "pkgdb",
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "nvd_data": [
+                {
+                    "id": "CVE-2019-12975",
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 5.2,
+                        "exploitability_score": 1.8,
+                        "impact_score": 3.6
+                    }
+                }
+            ],
+            "vendor_data": [],
+            "will_not_fix": false,
+            "fix_observed_at": "2023-09-22T01:23:51Z",
+            "detected_at": "2024-10-01T16:56:23Z"
+        },
+         {
+            "vuln": "CVE-2019-12975",
+            "severity": "Info",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2019-12975",
+            "fix": "8:6.9.10.23+dfsg-2.1+deb10u1",
+            "package": "libmagickwand-dev-8:6.9.10.23+dfsg-2.1",
+            "package_name": "libmagickwand1-dev",
+            "package_version": "8:6.9.10.23+dfsg-2.1",
+            "package_type": "dpkg",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_path": "pkgdb",
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "nvd_data": [
+                {
+                    "id": "CVE-2019-1297678",
+                    "cvss_v2": {
+                        "base_score": 4.3,
+                        "exploitability_score": 8.6,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 0,
+                        "exploitability_score": 1.2456,
+                        "impact_score": 3.6764543
+                    }
+                }
+            ],
+            "vendor_data": [],
+            "will_not_fix": false,
+            "fix_observed_at": "2023-09-22T01:23:51Z",
+            "detected_at": "2024-10-01T16:56:23Z"
+        }
+       
+        ],
+        "name": "Default bundle",
+        "description": "Default bundle"
+    }
