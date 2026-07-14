@@ -81,7 +81,7 @@
         "xdm.vulnerability.has_a_fix": true,
         "xdm.vulnerability.intelligence_id": "123f5b19-16cd-534d-a97a-8a38d766979a",
         "xdm.vulnerability.publish_date": "1970-01-19T20:13:20.108000Z",
-        "xdm.vulnerability.severity": "CRITICAL",
+        "xdm.vulnerability.severity": "Low",
         "xdm.vulnerability.status": "fixed"
       }
      }
