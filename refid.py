@@ -6,8 +6,8 @@ import random
 ISSUE_COUNT = 10
 OCCURRENCES_PER_ISSUE = 5
 REF_IDS_PER_OCCURRENCE = 10
-SHARED_OCCURRENCES = True  # All issues share same ref-IDs at each occurrence position
-DISTRIBUTION = {"cve": 40, "cwe": 20, "ghsa": 20, "snyk": 20}
+SHARED_OCCURRENCES = False  # All issues share same ref-IDs at each occurrence position
+DISTRIBUTION = {"cve": 20, "cwe": 20, "ghsa": 20, "snyk": 20, "xray": 10, "rhsa": 10}
 OUTPUT_FILE = "ref-id-perf-test.json"
 TARGET_NAME = "refid-perf-target"
 NULL_RATIO = 0.0   # 0.0-1.0: ratio of occurrences with absent referenceIdentifiers
