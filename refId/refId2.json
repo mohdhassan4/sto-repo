@@ -1,0 +1,2606 @@
+{
+  "meta": {
+    "key": [
+      "packageName"
+    ],
+    "subproduct": "RefIdPerfScanner"
+  },
+  "issues": [
+    {
+      "packageName": "pkg-issue0",
+      "issueName": "Issue 0",
+      "issueDescription": "Occurrence 0 of issue 0 for ref-ID performance testing",
+      "fileName": "src/module0/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue0",
+      "issueName": "Issue 0",
+      "issueDescription": "Occurrence 1 of issue 0 for ref-ID performance testing",
+      "fileName": "src/module0/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue0",
+      "issueName": "Issue 0",
+      "issueDescription": "Occurrence 2 of issue 0 for ref-ID performance testing",
+      "fileName": "src/module0/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue0",
+      "issueName": "Issue 0",
+      "issueDescription": "Occurrence 3 of issue 0 for ref-ID performance testing",
+      "fileName": "src/module0/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue0",
+      "issueName": "Issue 0",
+      "issueDescription": "Occurrence 4 of issue 0 for ref-ID performance testing",
+      "fileName": "src/module0/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue1",
+      "issueName": "Issue 1",
+      "issueDescription": "Occurrence 0 of issue 1 for ref-ID performance testing",
+      "fileName": "src/module1/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue1",
+      "issueName": "Issue 1",
+      "issueDescription": "Occurrence 1 of issue 1 for ref-ID performance testing",
+      "fileName": "src/module1/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue1",
+      "issueName": "Issue 1",
+      "issueDescription": "Occurrence 2 of issue 1 for ref-ID performance testing",
+      "fileName": "src/module1/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue1",
+      "issueName": "Issue 1",
+      "issueDescription": "Occurrence 3 of issue 1 for ref-ID performance testing",
+      "fileName": "src/module1/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue1",
+      "issueName": "Issue 1",
+      "issueDescription": "Occurrence 4 of issue 1 for ref-ID performance testing",
+      "fileName": "src/module1/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue2",
+      "issueName": "Issue 2",
+      "issueDescription": "Occurrence 0 of issue 2 for ref-ID performance testing",
+      "fileName": "src/module2/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue2",
+      "issueName": "Issue 2",
+      "issueDescription": "Occurrence 1 of issue 2 for ref-ID performance testing",
+      "fileName": "src/module2/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue2",
+      "issueName": "Issue 2",
+      "issueDescription": "Occurrence 2 of issue 2 for ref-ID performance testing",
+      "fileName": "src/module2/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue2",
+      "issueName": "Issue 2",
+      "issueDescription": "Occurrence 3 of issue 2 for ref-ID performance testing",
+      "fileName": "src/module2/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue2",
+      "issueName": "Issue 2",
+      "issueDescription": "Occurrence 4 of issue 2 for ref-ID performance testing",
+      "fileName": "src/module2/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue3",
+      "issueName": "Issue 3",
+      "issueDescription": "Occurrence 0 of issue 3 for ref-ID performance testing",
+      "fileName": "src/module3/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue3",
+      "issueName": "Issue 3",
+      "issueDescription": "Occurrence 1 of issue 3 for ref-ID performance testing",
+      "fileName": "src/module3/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue3",
+      "issueName": "Issue 3",
+      "issueDescription": "Occurrence 2 of issue 3 for ref-ID performance testing",
+      "fileName": "src/module3/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue3",
+      "issueName": "Issue 3",
+      "issueDescription": "Occurrence 3 of issue 3 for ref-ID performance testing",
+      "fileName": "src/module3/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue3",
+      "issueName": "Issue 3",
+      "issueDescription": "Occurrence 4 of issue 3 for ref-ID performance testing",
+      "fileName": "src/module3/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue4",
+      "issueName": "Issue 4",
+      "issueDescription": "Occurrence 0 of issue 4 for ref-ID performance testing",
+      "fileName": "src/module4/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue4",
+      "issueName": "Issue 4",
+      "issueDescription": "Occurrence 1 of issue 4 for ref-ID performance testing",
+      "fileName": "src/module4/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue4",
+      "issueName": "Issue 4",
+      "issueDescription": "Occurrence 2 of issue 4 for ref-ID performance testing",
+      "fileName": "src/module4/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue4",
+      "issueName": "Issue 4",
+      "issueDescription": "Occurrence 3 of issue 4 for ref-ID performance testing",
+      "fileName": "src/module4/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue4",
+      "issueName": "Issue 4",
+      "issueDescription": "Occurrence 4 of issue 4 for ref-ID performance testing",
+      "fileName": "src/module4/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue5",
+      "issueName": "Issue 5",
+      "issueDescription": "Occurrence 0 of issue 5 for ref-ID performance testing",
+      "fileName": "src/module5/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue5",
+      "issueName": "Issue 5",
+      "issueDescription": "Occurrence 1 of issue 5 for ref-ID performance testing",
+      "fileName": "src/module5/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue5",
+      "issueName": "Issue 5",
+      "issueDescription": "Occurrence 2 of issue 5 for ref-ID performance testing",
+      "fileName": "src/module5/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue5",
+      "issueName": "Issue 5",
+      "issueDescription": "Occurrence 3 of issue 5 for ref-ID performance testing",
+      "fileName": "src/module5/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue5",
+      "issueName": "Issue 5",
+      "issueDescription": "Occurrence 4 of issue 5 for ref-ID performance testing",
+      "fileName": "src/module5/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue6",
+      "issueName": "Issue 6",
+      "issueDescription": "Occurrence 0 of issue 6 for ref-ID performance testing",
+      "fileName": "src/module6/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue6",
+      "issueName": "Issue 6",
+      "issueDescription": "Occurrence 1 of issue 6 for ref-ID performance testing",
+      "fileName": "src/module6/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue6",
+      "issueName": "Issue 6",
+      "issueDescription": "Occurrence 2 of issue 6 for ref-ID performance testing",
+      "fileName": "src/module6/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue6",
+      "issueName": "Issue 6",
+      "issueDescription": "Occurrence 3 of issue 6 for ref-ID performance testing",
+      "fileName": "src/module6/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue6",
+      "issueName": "Issue 6",
+      "issueDescription": "Occurrence 4 of issue 6 for ref-ID performance testing",
+      "fileName": "src/module6/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue7",
+      "issueName": "Issue 7",
+      "issueDescription": "Occurrence 0 of issue 7 for ref-ID performance testing",
+      "fileName": "src/module7/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue7",
+      "issueName": "Issue 7",
+      "issueDescription": "Occurrence 1 of issue 7 for ref-ID performance testing",
+      "fileName": "src/module7/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue7",
+      "issueName": "Issue 7",
+      "issueDescription": "Occurrence 2 of issue 7 for ref-ID performance testing",
+      "fileName": "src/module7/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue7",
+      "issueName": "Issue 7",
+      "issueDescription": "Occurrence 3 of issue 7 for ref-ID performance testing",
+      "fileName": "src/module7/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue7",
+      "issueName": "Issue 7",
+      "issueDescription": "Occurrence 4 of issue 7 for ref-ID performance testing",
+      "fileName": "src/module7/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue8",
+      "issueName": "Issue 8",
+      "issueDescription": "Occurrence 0 of issue 8 for ref-ID performance testing",
+      "fileName": "src/module8/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue8",
+      "issueName": "Issue 8",
+      "issueDescription": "Occurrence 1 of issue 8 for ref-ID performance testing",
+      "fileName": "src/module8/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue8",
+      "issueName": "Issue 8",
+      "issueDescription": "Occurrence 2 of issue 8 for ref-ID performance testing",
+      "fileName": "src/module8/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue8",
+      "issueName": "Issue 8",
+      "issueDescription": "Occurrence 3 of issue 8 for ref-ID performance testing",
+      "fileName": "src/module8/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue8",
+      "issueName": "Issue 8",
+      "issueDescription": "Occurrence 4 of issue 8 for ref-ID performance testing",
+      "fileName": "src/module8/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue9",
+      "issueName": "Issue 9",
+      "issueDescription": "Occurrence 0 of issue 9 for ref-ID performance testing",
+      "fileName": "src/module9/file0.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2024-10006"
+        },
+        {
+          "type": "ghsa",
+          "id": "nj8k-t2tp-c6yc"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "a8rp-w4e2-8h27"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue9",
+      "issueName": "Issue 9",
+      "issueDescription": "Occurrence 1 of issue 9 for ref-ID performance testing",
+      "fileName": "src/module9/file1.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "high",
+      "severity": 7,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "ancd-8ayn-m7q6"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "jtmv-kq38-a485"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue9",
+      "issueName": "Issue 9",
+      "issueDescription": "Occurrence 2 of issue 9 for ref-ID performance testing",
+      "fileName": "src/module9/file2.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "medium",
+      "severity": 4,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cve",
+          "id": "2021-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2020-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "cve",
+          "id": "2022-10000"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "ghsa",
+          "id": "ekcz-6grv-66pk"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "ghsa",
+          "id": "xkq8-gwn6-6rjr"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue9",
+      "issueName": "Issue 9",
+      "issueDescription": "Occurrence 3 of issue 9 for ref-ID performance testing",
+      "fileName": "src/module9/file3.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "low",
+      "severity": 3,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "sca6-2qqz-rh5m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "ghsa",
+          "id": "vh7d-6yxx-kg5c"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2024-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2021-10006"
+        },
+        {
+          "type": "cwe",
+          "id": "200"
+        }
+      ]
+    },
+    {
+      "packageName": "pkg-issue9",
+      "issueName": "Issue 9",
+      "issueDescription": "Occurrence 4 of issue 9 for ref-ID performance testing",
+      "fileName": "src/module9/file4.java",
+      "remediationSteps": "Upgrade to latest version.",
+      "risk": "critical",
+      "severity": 10,
+      "status": "open",
+      "referenceIdentifiers": [
+        {
+          "type": "cwe",
+          "id": "200"
+        },
+        {
+          "type": "cwe",
+          "id": "259"
+        },
+        {
+          "type": "snyk",
+          "id": "DOTNET-MIXINDEEP-400010"
+        },
+        {
+          "type": "snyk",
+          "id": "PYTHON-LODASH-400008"
+        },
+        {
+          "type": "ghsa",
+          "id": "znfh-58ck-884m"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10004"
+        },
+        {
+          "type": "ghsa",
+          "id": "r5gj-9we8-jq8b"
+        },
+        {
+          "type": "cve",
+          "id": "2025-10000"
+        },
+        {
+          "type": "cve",
+          "id": "2019-10002"
+        },
+        {
+          "type": "cve",
+          "id": "2023-10006"
+        }
+      ]
+    }
+  ]
+}
