@@ -1,0 +1,704 @@
+{
+    "issues": [
+        {
+            "id": 3251155,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.6.9",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.6.9",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2020-7676_npm+angular",
+            "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+            "cve": "CVE-2020-7676",
+            "cvss": 5.4,
+            "severity": "medium",
+            "details": "angular.js prior to 1.8.0 allows cross site scripting. The regex-based input HTML replacement may turn sanitized code into unsanitized one. Wrapping \"<option>\" elements in \"<select>\" ones changes parsing behavior, leading to possibly unsanitizing code.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251148,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.5.11",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.5.11",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2019-10768_npm+angular",
+            "title": "Improper Input Validation",
+            "cve": "CVE-2019-10768",
+            "cvss": 7.5,
+            "severity": "high",
+            "details": "In AngularJS before 1.7.9 the function `merge()` could be tricked into adding or modifying properties of `Object.prototype` using a `__proto__` payload.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251151,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.5.11",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.5.11",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2023-26117_npm+angular",
+            "title": "General Vulnerability",
+            "cve": "CVE-2023-26117",
+            "cvss": null,
+            "severity": "unknown",
+            "details": "All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the $resource service due to the usage of an insecure regular expression. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251157,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.6.9",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.6.9",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2022-25844_npm+angular",
+            "title": "Allocation of Resources Without Limits or Throttling",
+            "cve": "CVE-2022-25844",
+            "cvss": 7.5,
+            "severity": "high",
+            "details": "The package angular after 1.7.0 are vulnerable to Regular Expression Denial of Service (ReDoS) by providing a custom locale rule that makes it possible to assign the parameter in posPre: ' '.repeat() of NUMBER_FORMATS.PATTERNS[1].posPre with a very high value. **Note:** 1) This package has been deprecated and is no longer maintained. 2) The vulnerable versions are 1.7.0 and higher.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251153,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.5.11",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.5.11",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2022-25869_npm+angular",
+            "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+            "cve": "CVE-2022-25869",
+            "cvss": 6.1,
+            "severity": "medium",
+            "details": "All versions of package angular are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of <textarea> elements.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251150,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.5.11",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.5.11",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2023-26116_npm+angular",
+            "title": "General Vulnerability",
+            "cve": "CVE-2023-26116",
+            "cvss": null,
+            "severity": "unknown",
+            "details": "All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the angular.copy() utility function due to the usage of an insecure regular expression. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251149,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.5.11",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.5.11",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2020-7676_npm+angular",
+            "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+            "cve": "CVE-2020-7676",
+            "cvss": 5.4,
+            "severity": "medium",
+            "details": "angular.js prior to 1.8.0 allows cross site scripting. The regex-based input HTML replacement may turn sanitized code into unsanitized one. Wrapping \"<option>\" elements in \"<select>\" ones changes parsing behavior, leading to possibly unsanitizing code.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251156,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.6.9",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.6.9",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2019-10768_npm+angular",
+            "title": "Improper Input Validation",
+            "cve": "CVE-2019-10768",
+            "cvss": 7.5,
+            "severity": "high",
+            "details": "In AngularJS before 1.7.9 the function `merge()` could be tricked into adding or modifying properties of `Object.prototype` using a `__proto__` payload.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251152,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.5.11",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.5.11",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2022-25844_npm+angular",
+            "title": "Allocation of Resources Without Limits or Throttling",
+            "cve": "CVE-2022-25844",
+            "cvss": 7.5,
+            "severity": "high",
+            "details": "The package angular after 1.7.0 are vulnerable to Regular Expression Denial of Service (ReDoS) by providing a custom locale rule that makes it possible to assign the parameter in posPre: ' '.repeat() of NUMBER_FORMATS.PATTERNS[1].posPre with a very high value. **Note:** 1) This package has been deprecated and is no longer maintained. 2) The vulnerable versions are 1.7.0 and higher.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251158,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.6.9",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.6.9",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2023-26116_npm+angular",
+            "title": "General Vulnerability",
+            "cve": "CVE-2023-26116",
+            "cvss": null,
+            "severity": "unknown",
+            "details": "All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the angular.copy() utility function due to the usage of an insecure regular expression. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251159,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.6.9",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.6.9",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2022-25869_npm+angular",
+            "title": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+            "cve": "CVE-2022-25869",
+            "cvss": 6.1,
+            "severity": "medium",
+            "details": "All versions of package angular are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of <textarea> elements.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251160,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.6.9",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.6.9",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2023-26117_npm+angular",
+            "title": "General Vulnerability",
+            "cve": "CVE-2023-26117",
+            "cvss": null,
+            "severity": "unknown",
+            "details": "All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the $resource service due to the usage of an insecure regular expression. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251161,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.6.9",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.6.9",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2023-26118_npm+angular",
+            "title": "General Vulnerability",
+            "cve": "CVE-2023-26118",
+            "cvss": null,
+            "severity": "unknown",
+            "details": "All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the <input type=\"url\"> element due to the usage of an insecure regular expression in the input[url] functionality. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251154,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+angular$1.5.11",
+                "name": "angular",
+                "url": "https://www.npmjs.com/package/angular",
+                "version": "1.5.11",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2023-26118_npm+angular",
+            "title": "General Vulnerability",
+            "cve": "CVE-2023-26118",
+            "cvss": null,
+            "severity": "unknown",
+            "details": "All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the <input type=\"url\"> element due to the usage of an insecure regular expression in the input[url] functionality. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.",
+            "remediation": "NO_SAFE_VERSION"
+        },
+        {
+            "id": 3251162,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+aws-sdk$2.600.0",
+                "name": "aws-sdk",
+                "url": "https://www.npmjs.com/package/aws-sdk",
+                "version": "2.600.0",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2020-28472_npm+aws-sdk",
+            "title": "Uncontrolled Resource Consumption",
+            "cve": "CVE-2020-28472",
+            "cvss": 9.8,
+            "severity": "critical",
+            "details": "This affects the package @aws-sdk/shared-ini-file-loader before 1.0.0-rc.9; the package aws-sdk before 2.814.0. If an attacker submits a malicious INI file to an application that parses it with loadSharedConfigFiles , they will pollute the prototype on the application. This can be exploited further depending on the context.",
+            "remediation": "2.814.0"
+        },
+        {
+            "id": 3251165,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+axios$0.19.1",
+                "name": "axios",
+                "url": "https://www.npmjs.com/package/axios",
+                "version": "0.19.1",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2021-3749_npm+axios",
+            "title": "General Vulnerability",
+            "cve": "CVE-2021-3749",
+            "cvss": 7.5,
+            "severity": "high",
+            "details": "axios is vulnerable to Inefficient Regular Expression Complexity",
+            "remediation": "0.21.1"
+        },
+        {
+            "id": 3251164,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+axios$0.19.1",
+                "name": "axios",
+                "url": "https://www.npmjs.com/package/axios",
+                "version": "0.19.1",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2020-28168_npm+axios",
+            "title": "Server-Side Request Forgery (SSRF)",
+            "cve": "CVE-2020-28168",
+            "cvss": 5.9,
+            "severity": "medium",
+            "details": "Axios NPM package 0.21.0 contains a Server-Side Request Forgery (SSRF) vulnerability where an attacker is able to bypass a proxy by providing a URL that responds with a redirect to a restricted host or IP address.",
+            "remediation": "0.21.1"
+        },
+        {
+            "id": 3251166,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+chart.js$2.8.0",
+                "name": "chart.js",
+                "url": "https://www.npmjs.com/package/chart.js",
+                "version": "2.8.0",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 1,
+                "deep": 0
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 1,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2020-7746_npm+chart.js",
+            "title": "Improper Input Validation",
+            "cve": "CVE-2020-7746",
+            "cvss": 9.8,
+            "severity": "critical",
+            "details": "This affects the package chart.js before 2.9.4. The options parameter is not properly sanitized when it is processed. When the options are processed, the existing options (or the defaults options) are deeply merged with provided options. However, during this operation, the keys of the object being set are not checked, leading to a prototype pollution.",
+            "remediation": "2.9.4"
+        },
+        {
+            "id": 3251163,
+            "createdAt": "2023-04-17T14:26:58.078Z",
+            "source": {
+                "id": "npm+chart.js$2.3.0",
+                "name": "chart.js",
+                "url": "https://www.npmjs.com/package/chart.js",
+                "version": "2.3.0",
+                "packageManager": "npm"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:zeronorth-legacy/engineering-platform-burlap.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:zeronorth-legacy/engineering-platform-burlap.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2020-7746_npm+chart.js",
+            "title": "Improper Input Validation",
+            "cve": "CVE-2020-7746",
+            "cvss": 9.8,
+            "severity": "critical",
+            "details": "This affects the package chart.js before 2.9.4. The options parameter is not properly sanitized when it is processed. When the options are processed, the existing options (or the defaults options) are deeply merged with provided options. However, during this operation, the keys of the object being set are not checked, leading to a prototype pollution.",
+            "remediation": "2.9.4"
+        },
+        {
+            "id": 3252593,
+            "createdAt": "2023-04-17T19:24:06.304Z",
+            "source": {
+                "id": "git+github.com/docker/cli$a8ff7f821017ae3d5347392c82718d6cba221681",
+                "name": "cli",
+                "url": "https://github.com/docker/cli.git",
+                "version": "a8ff7f821017ae3d5347392c82718d6cba221681",
+                "packageManager": "git"
+            },
+            "depths": {
+                "direct": 0,
+                "deep": 1
+            },
+            "statuses": {
+                "active": 1,
+                "ignored": 0
+            },
+            "projects": [
+                {
+                    "id": "custom+36979/git@github.com:harness/ticket-service.git",
+                    "status": "active",
+                    "depth": 2,
+                    "title": "git@github.com:harness/ticket-service.git"
+                }
+            ],
+            "type": "vulnerability",
+            "vulnId": "CVE-2021-41092_git+github.com/docker/cli",
+            "title": "Exposure of Sensitive Information to an Unauthorized Actor",
+            "cve": "CVE-2021-41092",
+            "cvss": 7.5,
+            "severity": "high",
+            "details": "Docker CLI is the command line interface for the docker container runtime. A bug was found in the Docker CLI where running `docker login my-private-registry.example.com` with a misconfigured configuration file (typically `~/.docker/config.json`) listing a `credsStore` or `credHelpers` that could not be executed would result in any provided credentials being sent to `registry-1.docker.io` rather than the intended private registry. This bug has been fixed in Docker CLI 20.10.9. Users should update to this version as soon as possible. For users unable to update ensure that any configured credsStore or credHelpers entries in the configuration file reference an installed credential helper that is executable and on the PATH.",
+            "remediation": "22.06.0-beta.0"
+        }
+    ]
+}
