@@ -1,0 +1,5036 @@
+{
+ "metadata": {
+  "type": "dockerImage",
+  "imageID": "sha256:89867091bfb2626393d967e92b55842b547f249ec12469488e0eb5ac1f3c1ae4",
+  "digest": "sha256:450e066588f42ebe1551f3b1a535034b6aa46cd936fe7f2c6b0d72997ec61dbd",
+  "baseOS": "ubuntu 20.04",
+  "pullString": "docker.io/ubuntu:20.04"
+ },
+ "vulnerabilities": {
+  "total": 19,
+  "fixable": 0,
+  "bySeverity": [
+   {
+    "severity": {
+     "value": 0,
+     "label": "Critical"
+    },
+    "total": 0
+   },
+   {
+    "severity": {
+     "value": 1,
+     "label": "High"
+    },
+    "total": 0
+   },
+   {
+    "severity": {
+     "value": 2,
+     "label": "Medium"
+    },
+    "total": 4
+   },
+   {
+    "severity": {
+     "value": 3,
+     "label": "Low"
+    },
+    "total": 3
+   },
+   {
+    "severity": {
+     "value": 4,
+     "label": "Negligible"
+    },
+    "total": 12
+   }
+  ],
+  "list": [
+   {
+    "name": "CVE-2022-3715",
+    "severity": {
+     "value": 2,
+     "label": "Medium",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2022-3715"
+    },
+    "originalSeverity": "medium",
+    "cvssScore": {
+     "value": {
+      "version": "3.0",
+      "score": 9.8,
+      "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+     },
+     "sourceName": "vulndb"
+    },
+    "disclosureDate": "2022-10-27T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "bash"
+    ]
+   },
+   {
+    "name": "CVE-2022-3821",
+    "severity": {
+     "value": 2,
+     "label": "Medium",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2022-3821"
+    },
+    "originalSeverity": "medium",
+    "cvssScore": {
+     "value": {
+      "version": "3.1",
+      "score": 5.5,
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+     },
+     "sourceName": "nvd",
+     "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-3821"
+    },
+    "disclosureDate": "2022-07-07T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "libsystemd0",
+     "libudev1"
+    ]
+   },
+   {
+    "name": "CVE-2022-42800",
+    "severity": {
+     "value": 2,
+     "label": "Medium",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2022-42800"
+    },
+    "originalSeverity": "medium",
+    "cvssScore": {
+     "value": {
+      "version": "3.1",
+      "score": 7.8,
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+     },
+     "sourceName": "nvd",
+     "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-42800"
+    },
+    "disclosureDate": "2022-10-27T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "zlib1g"
+    ]
+   },
+   {
+    "name": "CVE-2013-4235",
+    "severity": {
+     "value": 3,
+     "label": "Low",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2013-4235"
+    },
+    "originalSeverity": "low",
+    "cvssScore": {
+     "value": {
+      "version": "3.1",
+      "score": 4.7,
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N"
+     },
+     "sourceName": "nvd",
+     "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2013-4235"
+    },
+    "disclosureDate": "2015-02-06T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "login",
+     "passwd"
+    ]
+   },
+   {
+    "name": "CVE-2016-2781",
+    "severity": {
+     "value": 3,
+     "label": "Low",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2016-2781"
+    },
+    "originalSeverity": "low",
+    "cvssScore": {
+     "value": {
+      "version": "3.0",
+      "score": 6.5,
+      "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N"
+     },
+     "sourceName": "nvd",
+     "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2016-2781"
+    },
+    "disclosureDate": "2016-02-28T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "coreutils"
+    ]
+   },
+   {
+    "name": "CVE-2016-20013",
+    "severity": {
+     "value": 4,
+     "label": "Negligible",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2016-20013"
+    },
+    "originalSeverity": "negligible",
+    "cvssScore": {
+     "value": {
+      "version": "3.1",
+      "score": 7.5,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+     },
+     "sourceName": "nvd",
+     "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2016-20013"
+    },
+    "disclosureDate": "2016-08-31T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "libc-bin",
+     "libc6"
+    ]
+   },
+   {
+    "name": "CVE-2021-39537",
+    "severity": {
+     "value": 4,
+     "label": "Negligible",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2021-39537"
+    },
+    "originalSeverity": "negligible",
+    "cvssScore": {
+     "value": {
+      "version": "3.1",
+      "score": 8.8,
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+     },
+     "sourceName": "nvd",
+     "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537"
+    },
+    "disclosureDate": "2020-08-04T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "libncurses6",
+     "libncursesw6",
+     "libtinfo6",
+     "ncurses-base",
+     "ncurses-bin"
+    ]
+   },
+   {
+    "name": "CVE-2022-29458",
+    "severity": {
+     "value": 4,
+     "label": "Negligible",
+     "sourceName": "ubuntu",
+     "sourceUrl": "https://ubuntu.com/security/CVE-2022-29458"
+    },
+    "originalSeverity": "negligible",
+    "cvssScore": {
+     "value": {
+      "version": "3.1",
+      "score": 7.1,
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+     },
+     "sourceName": "nvd",
+     "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458"
+    },
+    "disclosureDate": "2022-04-16T00:00:00Z",
+    "solutionDate": null,
+    "exploitable": false,
+    "exploit": null,
+    "affectedPackages": [
+     "libncurses6",
+     "libncursesw6",
+     "libtinfo6",
+     "ncurses-base",
+     "ncurses-bin"
+    ]
+   }
+  ]
+ },
+ "packages": {
+  "total": 92,
+  "list": [
+   {
+    "type": "os",
+    "name": "bash",
+    "version": "5.0-6ubuntu1.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 1
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2022-3715",
+      "severity": {
+       "value": 2,
+       "label": "Medium",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-3715"
+      },
+      "originalSeverity": "medium",
+      "cvssScore": {
+       "value": {
+        "version": "3.0",
+        "score": 9.8,
+        "vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+       },
+       "sourceName": "ubuntu"
+      },
+      "disclosureDate": "2022-10-27T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libsystemd0",
+    "version": "245.4-4ubuntu3.18",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 1
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2022-3821",
+      "severity": {
+       "value": 2,
+       "label": "Medium",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-3821"
+      },
+      "originalSeverity": "medium",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 5.5,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-3821"
+      },
+      "disclosureDate": "2022-07-07T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libudev1",
+    "version": "245.4-4ubuntu3.18",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 1
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2022-3821",
+      "severity": {
+       "value": 2,
+       "label": "Medium",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-3821"
+      },
+      "originalSeverity": "medium",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 5.5,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-3821"
+      },
+      "disclosureDate": "2022-07-07T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "zlib1g",
+    "version": "1:1.2.11.dfsg-2ubuntu1.5",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 1
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2022-42800",
+      "severity": {
+       "value": 2,
+       "label": "Medium",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-42800"
+      },
+      "originalSeverity": "medium",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.8,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-42800"
+      },
+      "disclosureDate": "2022-10-27T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "coreutils",
+    "version": "8.30-3ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 1
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2016-2781",
+      "severity": {
+       "value": 3,
+       "label": "Low",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2016-2781"
+      },
+      "originalSeverity": "low",
+      "cvssScore": {
+       "value": {
+        "version": "3.0",
+        "score": 6.5,
+        "vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2016-2781"
+      },
+      "disclosureDate": "2016-02-28T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "login",
+    "version": "1:4.8.1-1ubuntu5.20.04.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 1
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2013-4235",
+      "severity": {
+       "value": 3,
+       "label": "Low",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2013-4235"
+      },
+      "originalSeverity": "low",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 4.7,
+        "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2013-4235"
+      },
+      "disclosureDate": "2015-02-06T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "passwd",
+    "version": "1:4.8.1-1ubuntu5.20.04.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 1
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2013-4235",
+      "severity": {
+       "value": 3,
+       "label": "Low",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2013-4235"
+      },
+      "originalSeverity": "low",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 4.7,
+        "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2013-4235"
+      },
+      "disclosureDate": "2015-02-06T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libncurses6",
+    "version": "6.2-0ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 2
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2021-39537",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2021-39537"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537"
+      },
+      "disclosureDate": "2020-08-04T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     },
+     {
+      "name": "CVE-2022-29458",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-29458"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.1,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458"
+      },
+      "disclosureDate": "2022-04-16T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libncursesw6",
+    "version": "6.2-0ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 2
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2021-39537",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2021-39537"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537"
+      },
+      "disclosureDate": "2020-08-04T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     },
+     {
+      "name": "CVE-2022-29458",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-29458"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.1,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458"
+      },
+      "disclosureDate": "2022-04-16T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libtinfo6",
+    "version": "6.2-0ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 2
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2021-39537",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2021-39537"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537"
+      },
+      "disclosureDate": "2020-08-04T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     },
+     {
+      "name": "CVE-2022-29458",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-29458"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.1,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458"
+      },
+      "disclosureDate": "2022-04-16T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "ncurses-base",
+    "version": "6.2-0ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 2
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2021-39537",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2021-39537"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537"
+      },
+      "disclosureDate": "2020-08-04T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     },
+     {
+      "name": "CVE-2022-29458",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-29458"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.1,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458"
+      },
+      "disclosureDate": "2022-04-16T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "ncurses-bin",
+    "version": "6.2-0ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 2
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2021-39537",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2021-39537"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 8.8,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2021-39537"
+      },
+      "disclosureDate": "2020-08-04T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     },
+     {
+      "name": "CVE-2022-29458",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2022-29458"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.1,
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2022-29458"
+      },
+      "disclosureDate": "2022-04-16T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libc-bin",
+    "version": "2.31-0ubuntu9.9",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 1
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2016-20013",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2016-20013"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2016-20013"
+      },
+      "disclosureDate": "2016-08-31T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libc6",
+    "version": "2.31-0ubuntu9.9",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 1
+     }
+    ],
+    "vulnerabilities": [
+     {
+      "name": "CVE-2016-20013",
+      "severity": {
+       "value": 4,
+       "label": "Negligible",
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://ubuntu.com/security/CVE-2016-20013"
+      },
+      "originalSeverity": "negligible",
+      "cvssScore": {
+       "value": {
+        "version": "3.1",
+        "score": 7.5,
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+       },
+       "sourceName": "ubuntu",
+       "sourceUrl": "https://nvd.nist.gov/vuln/detail/CVE-2016-20013"
+      },
+      "disclosureDate": "2016-08-31T00:00:00Z",
+      "solutionDate": null,
+      "exploitable": false,
+      "exploit": null
+     }
+    ],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "adduser",
+    "version": "3.118ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "apt",
+    "version": "2.0.9",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "base-files",
+    "version": "11ubuntu5.6",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "base-passwd",
+    "version": "3.5.47",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "bsdutils",
+    "version": "1:2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "bzip2",
+    "version": "1.0.8-2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "dash",
+    "version": "0.5.10.2-6",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "debconf",
+    "version": "1.5.73",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "debianutils",
+    "version": "4.9.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "diffutils",
+    "version": "1:3.7-3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "dpkg",
+    "version": "1.19.7ubuntu3.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "e2fsprogs",
+    "version": "1.45.5-2ubuntu1.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "fdisk",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "findutils",
+    "version": "4.7.0-1ubuntu1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "gcc-10-base",
+    "version": "10.3.0-1ubuntu1~20.04",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "gpgv",
+    "version": "2.2.19-3ubuntu2.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "grep",
+    "version": "3.4-1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "gzip",
+    "version": "1.10-0ubuntu4.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "hostname",
+    "version": "3.23",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "init-system-helpers",
+    "version": "1.57",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libacl1",
+    "version": "2.2.53-6",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libapt-pkg6.0",
+    "version": "2.0.9",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libattr1",
+    "version": "1:2.4.48-5",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libaudit-common",
+    "version": "1:2.8.5-2ubuntu6",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libaudit1",
+    "version": "1:2.8.5-2ubuntu6",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libblkid1",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libbz2-1.0",
+    "version": "1.0.8-2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libcap-ng0",
+    "version": "0.7.9-2.1build1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libcom-err2",
+    "version": "1.45.5-2ubuntu1.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libcrypt1",
+    "version": "1:4.4.10-10ubuntu4",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libdb5.3",
+    "version": "5.3.28+dfsg1-0.6ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libdebconfclient0",
+    "version": "0.251ubuntu1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libext2fs2",
+    "version": "1.45.5-2ubuntu1.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libfdisk1",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libffi7",
+    "version": "3.3-4",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libgcc-s1",
+    "version": "10.3.0-1ubuntu1~20.04",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libgcrypt20",
+    "version": "1.8.5-5ubuntu1.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libgmp10",
+    "version": "2:6.2.0+dfsg-4ubuntu0.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libgnutls30",
+    "version": "3.6.13-2ubuntu1.7",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libgpg-error0",
+    "version": "1.37-1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libhogweed5",
+    "version": "3.5.1+really3.5.1-2ubuntu0.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libidn2-0",
+    "version": "2.2.0-2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "liblz4-1",
+    "version": "1.9.2-2ubuntu0.20.04.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "liblzma5",
+    "version": "5.2.4-1ubuntu1.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libmount1",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libnettle7",
+    "version": "3.5.1+really3.5.1-2ubuntu0.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libp11-kit0",
+    "version": "0.23.20-1ubuntu0.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libpam-modules",
+    "version": "1.3.1-5ubuntu4.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libpam-modules-bin",
+    "version": "1.3.1-5ubuntu4.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libpam-runtime",
+    "version": "1.3.1-5ubuntu4.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libpam0g",
+    "version": "1.3.1-5ubuntu4.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libpcre2-8-0",
+    "version": "10.34-7ubuntu0.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libpcre3",
+    "version": "2:8.39-12ubuntu0.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libprocps8",
+    "version": "2:3.3.16-1ubuntu2.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libseccomp2",
+    "version": "2.5.1-1ubuntu1~20.04.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libselinux1",
+    "version": "3.0-1build2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libsemanage-common",
+    "version": "3.0-1build2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libsemanage1",
+    "version": "3.0-1build2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libsepol1",
+    "version": "3.0-1ubuntu0.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libsmartcols1",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libss2",
+    "version": "1.45.5-2ubuntu1.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libstdc++6",
+    "version": "10.3.0-1ubuntu1~20.04",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libtasn1-6",
+    "version": "4.16.0-2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libunistring2",
+    "version": "0.9.10-2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libuuid1",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "libzstd1",
+    "version": "1.4.4+dfsg-3ubuntu0.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "logsave",
+    "version": "1.45.5-2ubuntu1.1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "lsb-base",
+    "version": "11.1.0ubuntu2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "mawk",
+    "version": "1.3.4.20200120-2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "mount",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "perl-base",
+    "version": "5.30.0-9ubuntu0.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "procps",
+    "version": "2:3.3.16-1ubuntu2.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "sed",
+    "version": "4.7-1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "sensible-utils",
+    "version": "0.0.12+nmu1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "sysvinit-utils",
+    "version": "2.96-2.1ubuntu1",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "tar",
+    "version": "1.30+dfsg-7ubuntu0.20.04.2",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "ubuntu-keyring",
+    "version": "2020.02.11.4",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   },
+   {
+    "type": "os",
+    "name": "util-linux",
+    "version": "2.34-0.1ubuntu9.3",
+    "suggestedFix": null,
+    "packagePath": null,
+    "vulnsBySeverity": [
+     {
+      "severity": {
+       "value": 0,
+       "label": "Critical"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 1,
+       "label": "High"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 2,
+       "label": "Medium"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 3,
+       "label": "Low"
+      },
+      "total": 0
+     },
+     {
+      "severity": {
+       "value": 4,
+       "label": "Negligible"
+      },
+      "total": 0
+     }
+    ],
+    "vulnerabilities": [],
+    "exploitCount": 0
+   }
+  ]
+ },
+ "policies": {
+  "total": 1,
+  "list": [
+   {
+    "name": "Sysdig Best Practices",
+    "type": "alwaysApply",
+    "bundle": [
+     {
+      "name": "Severe vulnerabilities with a Fix",
+      "type": "predefined",
+      "rules": [
+       {
+        "predicates": [
+         {
+          "type": "vulnSeverity",
+          "extra": {
+           "level": "critical"
+          }
+         },
+         {
+          "type": "vulnIsFixable",
+          "extra": null
+         }
+        ],
+        "type": "vulnSeverityAndThreats",
+        "failureType": "pkgVulnFailure",
+        "failuresCount": 0
+       },
+       {
+        "predicates": [
+         {
+          "type": "vulnSeverity",
+          "extra": {
+           "level": "high"
+          }
+         },
+         {
+          "type": "vulnIsFixableWithAge",
+          "extra": {
+           "age": 30
+          }
+         }
+        ],
+        "type": "vulnSeverityAndThreats",
+        "failureType": "pkgVulnFailure",
+        "failuresCount": 0
+       },
+       {
+        "predicates": [
+         {
+          "type": "vulnSeverity",
+          "extra": {
+           "level": "high"
+          }
+         },
+         {
+          "type": "vulnExploitableViaNetwork",
+          "extra": null
+         }
+        ],
+        "type": "vulnSeverityAndThreats",
+        "failureType": "pkgVulnFailure",
+        "failuresCount": 0
+       }
+      ],
+      "failuresCount": 0
+     }
+    ],
+    "failuresCount": 0
+   }
+  ],
+  "status": "passed"
+ },
+ "info": {
+  "outputJSON": "/tmp/output.json",
+  "resultURL": "https://app.us4.sysdig.com/secure/#/scanning/assets/results/172cbbd032a4245bf50f1acfce0a0b50/overview",
+  "resultID": "172cbbd032a4245bf50f1acfce0a0b50",
+  "logPath": "/app/scan-logs"
+ }
+}
