@@ -9904,7 +9904,7 @@
             {
                 "id": "0b886c04-1f1c-579e-b2b7-83f4e5022001",
                 "externalId": null,
-                "description": "Password in URL (https://harness-rw:---REDACTED---@artifactorycloud.ual.com/artifactory/r-debian)",
+                "description": "Password in URL (https://artifactorycloud.ual.com/artifactory/r-debian) - credentials omitted from this sample payload",
                 "path": "/etc/apt/sources.list",
                 "lineNumber": 1,
                 "offset": 12,
