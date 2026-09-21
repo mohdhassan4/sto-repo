@@ -11177,6 +11177,76 @@
             },
             {
                 "policy": {
+                    "id": "ede5cb33-1140-4a97-84fb-8c4444c59184",
+                    "name": "Default vulnerabilities policy ede5cb33-1140-4a97-84fb-8c4444c59184",
+                    "description": "Default built-in policy ede5cb33-1140-4a97-84fb-8c4444c59184",
+                    "type": "VULNERABILITIES",
+                    "builtin": true,
+                    "projects": null,
+                    "policyLifecycleEnforcements": [
+                        {
+                            "enforcementMethod": "BLOCK",
+                            "deploymentLifecycle": "CLI",
+                            "enforcementConfig": null
+                        },
+                        {
+                            "enforcementMethod": "BLOCK",
+                            "deploymentLifecycle": "CODE",
+                            "enforcementConfig": null
+                        }
+                    ],
+                    "ignoreRules": null,
+                    "lifecycleTargets": null,
+                    "Default": false,
+                    "params": {
+                        "__typename": "cicdscanpolicyparamsvulnerabilities",
+                        "severity": "CRITICAL",
+                        "packageCountThreshold": 1,
+                        "ignoreUnfixed": true,
+                        "packageAllowList": [],
+                        "detectionMethods": null,
+                        "fixGracePeriodHours": 0,
+                        "publishGracePeriodHours": 0
+                    }
+                }
+            },
+             {
+                "policy": {
+                    "id": "ef831e88-2caa-4b2d-a485-880a75a64b6f",
+                    "name": "Default vulnerabilities policy ef831e88-2caa-4b2d-a485-880a75a64b6f",
+                    "description": "Default built-in policy ef831e88-2caa-4b2d-a485-880a75a64b6f",
+                    "type": "VULNERABILITIES",
+                    "builtin": true,
+                    "projects": null,
+                    "policyLifecycleEnforcements": [
+                        {
+                            "enforcementMethod": "BLOCK",
+                            "deploymentLifecycle": "CLI",
+                            "enforcementConfig": null
+                        },
+                        {
+                            "enforcementMethod": "BLOCK",
+                            "deploymentLifecycle": "CODE",
+                            "enforcementConfig": null
+                        }
+                    ],
+                    "ignoreRules": null,
+                    "lifecycleTargets": null,
+                    "Default": false,
+                    "params": {
+                        "__typename": "cicdscanpolicyparamsvulnerabilities",
+                        "severity": "CRITICAL",
+                        "packageCountThreshold": 1,
+                        "ignoreUnfixed": true,
+                        "packageAllowList": [],
+                        "detectionMethods": null,
+                        "fixGracePeriodHours": 0,
+                        "publishGracePeriodHours": 0
+                    }
+                }
+            },
+            {
+                "policy": {
                     "id": "1a4b47b2-7655-4f23-b9e6-88ebab0f9a05",
                     "name": "Default secrets policy",
                     "description": "Default built-in policy for secret scanning",
