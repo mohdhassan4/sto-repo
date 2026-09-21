@@ -11255,7 +11255,7 @@
           "projects": null,
           "policyLifecycleEnforcements": [
             {
-              "enforcementMethod": "AUDIT",
+              "enforcementMethod": "BLOCK",
               "deploymentLifecycle": "CLI",
               "enforcementConfig": null
             },
@@ -11290,7 +11290,7 @@
               "enforcementConfig": null
             },
             {
-              "enforcementMethod": "AUDIT",
+              "enforcementMethod": "BLOCK",
               "deploymentLifecycle": "CODE",
               "enforcementConfig": null
             }
@@ -11315,12 +11315,12 @@
           "projects": null,
           "policyLifecycleEnforcements": [
             {
-              "enforcementMethod": "AUDIT",
+              "enforcementMethod": "TEST",
               "deploymentLifecycle": "CLI",
               "enforcementConfig": null
             },
             {
-              "enforcementMethod": "AUDIT",
+              "enforcementMethod": "BLOCK",
               "deploymentLifecycle": "CODE",
               "enforcementConfig": null
             }
